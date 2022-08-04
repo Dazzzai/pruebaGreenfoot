@@ -13,8 +13,9 @@ public class MyCat extends Cat
      */
     public void act()
     {
+        sleep(2);
         {
-        if (isAlone() == true){
+            if (isAlone() == true){
             sleep(4);
             shoutHooray();
         } else{
